@@ -1,0 +1,40 @@
+/* Banner Starts Here */
+
+#bannerimg
+{
+    width: 100vw;
+    z-index: -1;
+}
+.banner
+{
+    position: absolute;
+    top:0;
+}
+h1
+{
+    color: #ffffff;
+    text-align: center;
+    font-size: 60px;
+    padding-top: 280px;
+}
+
+.btn
+{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding-top: 50px;
+}
+
+
+/* Banner Ends Here */
+
+
+
+
+/* Body A Sarts here */
+.BodyA
+{
+    padding:20px;
+}
+/* Body A Ends here */
