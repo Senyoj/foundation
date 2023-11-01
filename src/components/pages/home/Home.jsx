@@ -22,7 +22,6 @@ function Home() {
 
       {/* Body A Starts Here */}
       <div className ="BodyA">
-        body b 
       </div>
       {/* Body A Ends Here */}
 

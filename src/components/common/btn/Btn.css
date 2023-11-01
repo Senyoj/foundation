@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
+
 #btn
 {
     background-color: #006634;
@@ -5,5 +7,7 @@
     height:62px;
     border-radius: 20px;
     font-size:25px;
+    font-family: 'EB Garamond', serif;
+
     color:#ffffff;
 }
