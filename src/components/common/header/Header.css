@@ -1,12 +1,22 @@
 /* font families */
   @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 /* logo here  */
 .logo {
-    width: 160px;
+    width: 220px;
 }
 
 /* Navbar Starts Here */
+nav{
+    padding: 25px;
+}
+
 ul {
     display: flex;
     gap: 20px;
@@ -19,19 +29,26 @@ ul li {
 }
 ul li a {
     text-decoration: none;
+    color: #232524;
+
 }
 
 .logo{
-    padding-top: -30px;
+    padding: 20px;
 }
 
 
 .body
 {
+    width: 100vw;
     display: flex;
-    justify-content: center;
-    justify-items: center;
+    justify-content: space-around   ;
+    justify-items: center;  
 }
 
+.search
+{
+    padding: 20px;
+}
 /* Navbar Ends Here */
 

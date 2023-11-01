@@ -5,7 +5,8 @@ import React from 'react'
 function Search() {
   return (
     <div>
-      search Bar
+        <input type="search" name="Search" id="search" placeholder="Search" />
+        <button>Search</button>
     </div>
   )
 }
