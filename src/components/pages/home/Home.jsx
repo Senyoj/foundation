@@ -1,6 +1,7 @@
 import "./Home.css";
-import { banner } from "../../../assets/images/image";
+import { banner, overview } from "../../../assets/images/image";
 import Navbar from "../../common/navbar/Navbar";
+// import Header from "../../common/header/Header"
 import Btn from "../../common/btn/Btn";
 import React from "react";
 
@@ -8,7 +9,7 @@ function Home() {
   return (
     <div className="">
       {/* Banner Starts Here */}
-        <img src={banner} alt="banner" id="bannerimg" />
+      <img src={banner} alt="banner" id="bannerimg" />
       <div className="banner">
         <Navbar />
         <h1>
@@ -21,9 +22,60 @@ function Home() {
       {/* Banner Ends Here */}
 
       {/* Body A Starts Here */}
-      <div className ="BodyA">
+      <div className="BodyA">
+        <div className="content">
+          <img src={overview} alt="image " className="image" />
+          <div className="sub-container">
+            <h2>Overview</h2>
+            <p>
+              ia consequuntur magni dolores eos qui ratione voluptatem sequi
+              nesciunt. Neque porro quisquam est.. Neque porro quisquam. Nemo
+              enim ipsam voluptatemm quia vNemo enim ipsam voluptatem quia
+              voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
+              quia voluptas sit aspernatur aut odit ia consequuntur magni
+              dolores eos qui ratione voluptatem sequi nesciunt. Neque porro
+              quisquam est.. Neque porro quisquam. Nemo enim ipsam voluptatemm
+              quia vNemo enim ipsam voluptatem quia voluptas sit aspernatur aut
+              odit aut fugit, sed quia consequuntur quia voluptas sit aspernatur
+              aut odit ia consequuntur magni dolores eos qui ratione voluptatem
+              sequi nesciunt. Neque porro quisquam est.. Neque porro quisquam.
+              Nemo enim ipsam voluptatemm quia vNemo enim ipsam voluptatem quia
+              voluptas sit aspernatur aut odit aut fugit,sed quia consequuntur
+              quia voluptas sit aspernatur aut odit
+            </p>
+          </div>
+        </div>
+        <p>
+          ia consequuntur magni dolores eos qui ratione voluptatem sequi
+          nesciunt. Neque porro quisquam est.. Neque porro quisquam. Nemo enim
+          ipsam voluptatemm quia vNemo enim ipsam voluptatem quia voluptas sit
+          aspernatur aut odit aut fugit,sed quia consequuntur quia voluptas sit
+          aspernatur aut odit ia consequuntur magni dolores eos qui ratione
+          voluptatem sequi nesciunt. Nequeporro quisquam est.. Neque porro
+          quisquam. Nemo enim ipsam voluptatemm quia vNemo enim ipsam voluptatem
+          quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
+          quia voluptas sit aspernatur aut odit{" "}
+        </p>
+      </div>
+
+      <div className="btn">
+        <Btn text="Volunteer "/>
       </div>
       {/* Body A Ends Here */}
+
+      {/* Header Starts Here  */}
+      {/* <Header/> */}
+      {/* Header Ends Here  */}
+
+
+
+
+
+
+
+
+
+
 
     </div>
   );
