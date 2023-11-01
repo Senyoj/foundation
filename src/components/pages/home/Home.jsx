@@ -1,11 +1,10 @@
-import Home from './Home.css'
-
+import  './Home.css'
 
 import React from 'react'
 
 function Home() {
   return (
-    <div>
+    <div className='body'>
       hello world!!
     </div>
   )
